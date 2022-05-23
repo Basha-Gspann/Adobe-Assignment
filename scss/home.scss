@@ -280,24 +280,73 @@ img {
         p {
             margin-top: 1rem;
         }
+
+        #sprites-1 {
+            height: 15rem;
+            background: url(../images/tiles.png);
+            background-repeat: no-repeat;
+            background-position: -1rem -37rem;
+            background-size: cover;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1rem;
+
+            .desc-1 {
+                margin-left: 3rem;
+            }
+
+            .desc-2 {
+                margin-right: 5rem;
+            }
+
+            h4 {
+                margin-top: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+
+        #sprites-2 {
+            height: 15rem;
+            background: url(../images/tiles.png);
+            background-repeat: no-repeat;
+            background-position: -25rem -1rem;
+            background-size: 243% 88rem;
+        }
+
+        .cont{
+            padding-top: 1rem;
+
+            h4 {
+                margin-top: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+
+        #sprites-3 {
+            height: 15rem;
+            background: url(../images/tiles.png);
+            background-repeat: no-repeat;
+            background-position: -1rem -57rem;
+            background-size: cover;
+        }
+
+        #sprites-4 {
+            height: 15rem;
+            background: url(../images/tiles.png);
+            background-repeat: no-repeat;
+            background-position: 1rem -1rem;
+            background-size: 231% 100rem;
+        }
     }
-
-    .tiles .card {
-        margin-bottom: 4rem;
-
-        h4 {
-            margin-top: 1rem;
-        }
-
-        p {
-            font-size: .8rem;
-        }
-
-        img {
-            height: 14rem;
-            width: 15rem;
-        }
-}
 }
 
 // Feature Banner
