@@ -13,47 +13,85 @@
   <body>
     <div>
       
-      
-
       <div>
 
-        <!-- Offer Banner -->
-
-        <div class="tag">
+        <div class="header">
+          <div class="tag">
             <p>Free Standard Shipping on orders over $99.99</p>
-        </div>
-
-        <!-- Header -->
-
-        <nav class="navbar">
-
-            <!-- Main Navbar -->
-
-            <div class="navbar-main">
-                <div class="navbar-main_menu">
-                    <a href="/" class="navbar-main_menu-links">ABOUT</a>
-                    <a href="/" class="navbar-main_menu-links">CONSULTATION</a>
-                  </div>
-              <a href="/" class="navbar-main_logo">sooth</a>
-              <!-- <div class="navbar_bars"><i class="fas fa-bars"></i></div> -->
-              <div class="navbar-main_menu">
-                <a href="/" class="navbar-main_menu-links"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a href="/" class="navbar-main_menu-links">CART</a>
-                <a href="/" class="navbar-main_menu-links">LOGIN</a>
-              </div>
-            </div>
-
-            <!-- Sub navbar -->
-
-            <div class="navbar-sub">
-              <a href="/" class="navbar-sub_menu-links">Acne</a>
-              <a href="/" class="navbar-sub_menu-links">Sun</a>
-              <a href="/" class="navbar-sub_menu-links">Ezcema</a>
-              <a href="/" class="navbar-sub_menu-links">Psoriasis</a>
-              <a href="/" class="navbar-sub_menu-links">Vitiligio</a>
           </div>
+          <nav class="navbar">
+            
+            <div>
+    
+                <ul class="nav-menu mobile">
+                    <li class="nav-item"><a href="#" class="nav-link"> Acne </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sun </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Ezcema </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Psoriasis </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Vitiligio </a></li>
+                </ul>
+    
+    
+                <ul class="nav-menu desktop">
+                    <li class="nav-item mob">
+                      <a href="#" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item mob">
+                      <a href="#" class="nav-link">CONSULTATION</a>
+                    </li>
+                    <!-- </ul> -->
+                  <a href="#" class="nav-logo">sooth</a>
+              <!-- <ul class="nav-menu desktop"> -->
+                    <li class="nav-item mob">
+                      <a href="#" class="nav-link"
+                        ><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">CART</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">LOGIN</a>
+                    </li>
+                  </ul>
+                  
+          
+                  <ul class="nav-menu sub desktop">
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">Acne</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">Sun</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link"
+                          >Ezcema</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">Psoriasis</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link">Vitiligio</a>
+                      </li>
+                    </ul>
+    
+                    
+            </div>
+    
+            
+            <div class="cross">
+              <div class="hamburger cro">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
 
-        </nav>
+              <div class="cro">
+                <a href="#" class="nav-logo">sooth</a>
+              </div>
+              
+            </div>
+          </nav>
+        </div>
 
         
 
@@ -656,5 +694,17 @@
       </div>
       </div>
     </div>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
