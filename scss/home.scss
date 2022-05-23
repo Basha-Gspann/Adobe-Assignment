@@ -234,6 +234,10 @@ img {
             @include shop-button($white, 1px solid $white, 3rem);
         }
     }
+
+    #man{
+        @include teaser-img(url(../images/teaser1.png),0rem -19rem)
+    }
 }
 
 // Cream Teaser
@@ -256,6 +260,10 @@ img {
         button {
             @include shop-button(#2E2E22, 1px solid #956A53, 3rem)
         }
+    }
+
+    #hand{
+        @include teaser-img(url(../images/han.png),-10rem -37rem)
     }
 }
 

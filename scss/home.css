@@ -148,7 +148,7 @@
 }
 
 .footer input[type="submit"] {
-  margin-left: -5.3rem;
+  margin-left: -6.3rem;
   height: 2.5rem;
   width: 6.3rem;
   background-color: transparent;
@@ -460,6 +460,13 @@ img {
   font-weight: 600;
 }
 
+.teaser-green #man {
+  height: 41rem;
+  background: url(../images/teaser1.png);
+  background-repeat: no-repeat;
+  background-position: 0rem -19rem;
+}
+
 .teaser-cream {
   background-color: #C6B9B6;
 }
@@ -495,6 +502,13 @@ img {
   font-size: .9rem;
   cursor: pointer;
   font-weight: 600;
+}
+
+.teaser-cream #hand {
+  height: 41rem;
+  background: url(../images/han.png);
+  background-repeat: no-repeat;
+  background-position: -10rem -37rem;
 }
 
 .tiles {

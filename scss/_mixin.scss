@@ -35,6 +35,13 @@
     color: $white;
 }
 
+@mixin teaser-img($url,$position) {
+    height: 41rem;
+    background: $url;
+    background-repeat: no-repeat;
+    background-position: $position;
+}
+
 @mixin teaser-p($color) {
     font-weight: 500;
     color: $color;
