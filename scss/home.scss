@@ -1,0 +1,374 @@
+@import 'colors';
+@import 'navbar';
+@import 'mixin';
+
+@include scrollbar;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+// Hero Banner
+
+.hero-banner {
+    background-image: url("../images/hands.png");
+    background-color: $light;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+    .hero {
+        align-items: center;
+        padding: 6rem 0;
+
+        .content .new {
+            margin-bottom: 3%;
+
+            span {
+                font-size: .8rem;
+                background-color: $white;
+                padding: 1%;
+            }
+        }
+
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 2.8rem;
+            line-height: 1;
+            margin-bottom: 2%;
+        }
+
+        p {
+            @include teaser-p($blue);
+            padding-right: 26%;
+        }
+
+        button {
+            @include shop-button($black, 1px solid #354E57, 0);
+            margin-top: 1.5rem;
+        }
+
+        .hero-img {
+            margin-bottom: 28rem;
+            position: relative;
+
+            .leafl img {
+                position: absolute;
+                top: -2rem;
+                right: 9rem;
+                width: 33rem;
+            }
+
+            .bottle img {
+                position: absolute;
+                left: 2rem;
+                top: -5rem;
+            }
+
+            .leafr img {
+                position: absolute;
+                width: 18rem;
+                top: -4rem;
+                left: 15rem;
+            }
+        }
+    }
+
+}
+
+
+
+// Secondary Banner
+
+.solutions {
+    background-color: $light;
+    color: $blue;
+    text-align: center;
+    padding: 3rem;
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
+
+// Product Teaser
+
+.product-tease {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: $light;
+    color: $blue;
+
+    .product {
+        .filter {
+            font-weight: bold;
+            padding-bottom: 2rem;
+
+            .shop {
+                text-align: right;
+            }
+
+        }
+
+        .card {
+            margin: 0.8rem;
+            margin-bottom: 5rem;
+
+            .p-banner {
+                background-color: $white;
+                // height: 20rem;
+
+                .new {
+                    margin-bottom: 3%;
+                    padding-top: 1rem;
+                    padding-left: 1rem;
+
+                    span {
+                        font-size: .8rem;
+                        background-color: #F7F7F7;
+                        padding: 3%;
+                    }
+                }
+
+                img {
+                    height: 20rem;
+                    width: 15rem;
+                }
+
+                #p-img:hover {
+                    content: url('../images/cream.png');
+                }
+
+                #p-img1:hover {
+                    content: url('../images/poo.png');
+                }
+
+                #p-img2:hover {
+                    content: url('../images/psoriasis.png');
+                }
+
+                #p-img3:hover {
+                    content: url('../images/acne.png');
+                }
+            }
+
+            .p-content {
+                margin-top: 1rem;
+
+                h5 {
+                    font-weight: 800;
+                }
+
+                .dec {
+                    font-size: .8rem;
+                    margin-top: .2rem;
+                }
+
+                h6 {
+                    margin-top: 1rem;
+                    font-size: .9rem;
+                }
+            }
+
+            .p-button {
+                button {
+                    color: $black;
+                    border: 1px solid $blue;
+                    background-color: transparent;
+                    padding: 0.6rem 4.5rem;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: .8rem;
+                    cursor: pointer;
+                    letter-spacing: 0.6px;
+                    margin-top: 1rem;
+
+                    &:hover {
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Green Teaser
+
+.teaser-green {
+    background-color: #547665;
+
+    .content {
+        @include teaser;
+
+        h1 {
+            line-height: 3rem;
+            font-size: 2.2rem;
+        }
+
+        p {
+            @include teaser-p(#EEF2F4);
+        }
+
+        button {
+            @include shop-button($white, 1px solid $white, 3rem);
+        }
+    }
+}
+
+// Cream Teaser
+
+.teaser-cream {
+    background-color: #C6B9B6;
+
+    .content {
+        @include teaser;
+
+        h1 {
+            margin-top: 3rem;
+            font-size: 2.2rem;
+        }
+
+        p {
+            @include teaser-p(#2E2E22);
+        }
+
+        button {
+            @include shop-button(#2E2E22, 1px solid #956A53, 3rem)
+        }
+    }
+}
+
+// Image Tiles
+
+.tiles {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 11rem;
+    color: $blue;
+
+    .container {
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 4rem;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            margin-top: 1rem;
+        }
+    }
+
+    .tiles .card {
+        margin-bottom: 4rem;
+
+        h4 {
+            margin-top: 1rem;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+
+        img {
+            height: 14rem;
+            width: 15rem;
+        }
+}
+}
+
+// Feature Banner
+
+.feature {
+    background-color: #EEF2F4;
+    color: $blue;
+    text-align: center;
+    padding: 3rem 0;
+
+    .fa-solid {
+        font-size: 2rem;
+        color: #C6B9B6;
+    }
+
+    h6 {
+        padding: 0 6.4rem;
+        font-size: 1rem;
+        margin-top: .6rem;
+    }
+
+    p {
+        font-size: .8rem;
+        margin-top: 1rem;
+        text-decoration: underline;
+    }
+}
+
+// News Letter
+
+.newsletter {
+    color: $blue;
+
+    .subscribe {
+        margin: 3rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        .vl {
+            border-left: 2px solid #D7CCDD;
+            height: 4.7rem;
+            margin-left: 3rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+
+        input[type="text"] {
+            width: 19rem;
+            height: 2.5rem;
+            padding-right: 50px;
+            margin-top: 1rem;
+            margin-left: 8rem;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input[type="submit"] {
+            margin-left: -5.3rem;
+            height: 2.5rem;
+            width: 6.3rem;
+            background: #956A53;
+            color: $white;
+            cursor: pointer;
+            border: 0;
+        }
+    }
+}

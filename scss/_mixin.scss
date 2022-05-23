@@ -1,0 +1,45 @@
+@mixin scrollbar {
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #547665;
+    }
+}
+
+@mixin shop-button($color, $border, $margin) {
+    color: $color;
+    border: $border;
+    margin-top: $margin;
+    background-color: transparent;
+    padding: 0.6rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@mixin teaser {
+    margin: 9rem;
+    padding: 2.8rem 0;
+    color: $white;
+}
+
+@mixin teaser-p($color) {
+    font-weight: 500;
+    color: $color;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,169 @@
+@import 'colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: proxima-nova, sans-serif;
+}
+
+// Offer Banner
+
+.tag {
+  background-color: $brown;
+  color: $white;
+  text-align: center;
+  padding: 1%;
+
+  p {
+    letter-spacing: 0.8px;
+  }
+}
+
+// Header
+
+.navbar {
+  background: #E0E4E7;
+  padding-top: 2rem;
+
+  .navbar-main {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    z-index: 10;
+    position: relative;
+  
+    &_logo {
+      color: #354E57;
+      font-size: 32px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2rem;
+      margin-left: 24px;
+      display: flex;
+      align-items: center;
+    }
+  
+    &_menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      text-align: center;
+      margin-right: 24px;
+  
+    }
+  
+    .navbar-main_menu-links {
+      font-size: 12px;
+      font-weight: bold;
+      color: #354E57;
+      letter-spacing: 0.6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0 1rem;
+    }
+  
+  }
+}
+
+// Sub-Navbar
+
+.navbar-sub {
+  text-align: center;
+
+
+  &_menu-links {
+    padding: 0 1rem;
+    color: #354E57;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+  }
+
+}
+
+// Footer
+
+.footer {
+  background: #354E57;
+  color: $white;
+  padding-top: 10rem;
+
+  .content{
+    padding-bottom: 6rem;
+  }
+
+  h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    width: 23rem;
+    height: 2.5rem;
+    padding-right: 50px;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 1px solid $white;
+
+    &::placeholder {
+      color: $white;
+      padding-left: 1rem;
+      font-weight: 100;
+    }
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  input[type="submit"] {
+    margin-left: -5.3rem;
+    height: 2.5rem;
+    width: 6.3rem;
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+    border: 0;
+    border-left: 1px solid;
+    cursor: pointer;
+  }
+
+  .extra{
+    padding-left: 5rem;
+  }
+
+  h4 {
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .other {
+    display: flex;
+
+    p {
+      padding-right: 4rem;
+      text-decoration: underline;
+      margin-bottom: 8rem;
+    }
+  }
+  .fa-brands {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  
+  }
+}
