@@ -217,9 +217,9 @@ a {
 }
 
 .footer input[type="submit"] {
-  margin-left: -6.3rem;
+  margin-left: -5.3rem;
   height: 2.5rem;
-  width: 6.3rem;
+  width: 5.3rem;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
@@ -266,6 +266,10 @@ a {
   padding: 0 1rem;
 }
 
+.footer .mobile-foo {
+  display: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -308,6 +312,10 @@ img {
   background-color: #E0E4E7;
   background-position-y: center;
   background-repeat: no-repeat;
+}
+
+.hero-banner .mobile-hero {
+  display: none;
 }
 
 .hero-banner .hero {
@@ -588,6 +596,10 @@ img {
   color: #354E57;
 }
 
+.tiles .mobile-tiles {
+  display: none;
+}
+
 .tiles .container {
   max-width: 70%;
   margin: 0 auto;
@@ -714,6 +726,10 @@ img {
   margin-left: 3rem;
 }
 
+.newsletter .subscribe .hl {
+  display: none;
+}
+
 .newsletter .subscribe p {
   font-size: 1rem;
   margin-top: 1rem;
@@ -743,7 +759,7 @@ img {
 
 @media only screen and (min-width: 1024px) and (max-width: 1224px) {
   .sooth {
-    width: 1057px;
+    width: 1056px;
   }
   .container {
     max-width: 90%;
@@ -857,6 +873,164 @@ img {
   }
   .newsletter .subscribe input[type="submit"] {
     margin-left: -6.3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .newsletter .subscribe input[type="text"] {
+    width: 12rem;
+  }
+  .tab-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .hero-banner {
+    background-image: url(../images/hands.png);
+    background-color: #E0E4E7;
+    background-repeat: no-repeat;
+    background-position: -33rem -6rem;
+  }
+  .mobile-hero {
+    display: block !important;
+  }
+  .hero-banner .desk-hero {
+    display: none;
+  }
+  .hero-banner .hero {
+    padding: 0;
+  }
+  .hero-banner .hero .hero-img {
+    margin-bottom: 40rem;
+  }
+  .hero-banner .hero .hero-img .leafl img {
+    top: 5rem;
+    right: 10rem;
+  }
+  .hero-banner .hero .hero-img .leafr img {
+    top: 3rem;
+    left: 18rem;
+  }
+  .hero-banner .hero .hero-img .bottle img {
+    left: 5rem;
+    top: 2rem;
+    width: 90%;
+  }
+  .filter {
+    display: none;
+  }
+  .mobile-hero .content {
+    padding: 4rem 0;
+  }
+  .teaser-green .content {
+    padding: 0;
+    margin: 9rem 0rem;
+  }
+  .teaser-cream .content {
+    padding: 0;
+    margin: 9rem 0rem;
+  }
+  .desk-tile {
+    display: none;
+  }
+  .mobile-tiles {
+    display: block !important;
+  }
+  .mobile-tiles #tiles-1 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: 13rem -32rem;
+    background-size: 135% 370%;
+  }
+  .mobile-tiles #tiles-2 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: -20rem -33rem;
+    background-size: 147% 381%;
+  }
+  .mobile-tiles #tiles-3 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: -26rem 3rem;
+    background-size: 176% 389%;
+  }
+  .mobile-tiles #tiles-4 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: 13rem -50rem;
+    background-size: 135% 370%;
+  }
+  .mobile-tiles #tiles-5 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: -26rem -54rem;
+    background-size: 176% 389%;
+  }
+  .mobile-tiles #tiles-6 {
+    height: 20rem;
+    width: 36rem;
+    background: url(../images/tiles.png);
+    background-repeat: no-repeat;
+    background-position: 13rem 4rem;
+    background-size: 135% 370%;
+  }
+  .feature {
+    padding: 0;
+    padding-bottom: 6rem;
+  }
+  .feature .mob-fe {
+    padding-top: 6rem;
+  }
+  .feature h6 {
+    padding: 1rem 14rem;
+    font-size: 1rem;
+  }
+  .newsletter .subscribe {
+    margin: 4rem 0;
+  }
+  .newsletter .subscribe input[type="text"] {
+    margin-left: 6rem;
+  }
+  .newsletter .subscribe input[type="submit"] {
+    margin-left: -18.3rem;
+  }
+  .vl {
+    display: none;
+  }
+  .hl {
+    display: block !important;
+  }
+  .footer {
+    padding-top: 2rem;
+  }
+  .footer .nav-input {
+    padding: 3rem 0;
+  }
+  .footer .other p {
+    padding-right: 6rem;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+  }
+  .footer .other {
+    padding: 1rem 0;
+  }
+  .mob-soc {
+    padding-bottom: 5rem;
+  }
+  .desk-foo {
+    display: none;
+  }
+  .mobile-foo {
+    display: block !important;
   }
 }
 /*# sourceMappingURL=home.css.map */

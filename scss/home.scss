@@ -33,6 +33,10 @@ img {
     background-position-y: center;
     background-repeat: no-repeat;
 
+    .mobile-hero{
+        display: none;
+    }
+
     .hero {
         align-items: center;
         padding: 6rem 0;
@@ -235,8 +239,8 @@ img {
         }
     }
 
-    #man{
-        @include teaser-img(url(../images/teaser1.png),0rem -19rem)
+    #man {
+        @include teaser-img(url(../images/teaser1.png), 0rem -19rem)
     }
 }
 
@@ -262,8 +266,8 @@ img {
         }
     }
 
-    #hand{
-        @include teaser-img(url(../images/teaser2.png),-10rem -37rem)
+    #hand {
+        @include teaser-img(url(../images/teaser2.png), -10rem -37rem)
     }
 }
 
@@ -275,6 +279,10 @@ img {
     padding-top: 1rem;
     padding-bottom: 11rem;
     color: $blue;
+
+    .mobile-tiles{
+        display: none;
+    }
 
     .container {
         max-width: 70%;
@@ -327,7 +335,7 @@ img {
             background-size: 243% 88rem;
         }
 
-        .cont{
+        .cont {
             padding-top: 1rem;
 
             h4 {
@@ -401,6 +409,10 @@ img {
             margin-left: 3rem;
         }
 
+        .hl{
+            display: none;
+        }
+
         p {
             font-size: 1rem;
             margin-top: 1rem;
@@ -433,160 +445,326 @@ img {
 
 
 
-
-
 // Media Queary
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1224px) {
-    .sooth{
-        width: 1057px;
+    .sooth {
+        width: 1056px;
     }
-    
+
     .container {
         max-width: 90%;
         margin: 0 auto;
     }
-    
+
     .nav-menu {
         padding: 0 2rem;
-        .nav-link{
+
+        .nav-link {
             padding-right: 1.2rem;
         }
     }
-    
-    .sub{
+
+    .sub {
         padding: 2rem;
     }
-    
+
     .hero-banner {
         background-size: cover;
         background-position: 6rem -5rem;
     }
-    
+
     .hero-banner .hero {
         padding: 0rem 0;
     }
-    
+
     .hero-banner .hero .hero-img .bottle img {
         left: 0rem;
         top: -2rem;
     }
-    
+
     .hero-banner .hero .hero-img .leafl img {
         top: 2rem;
         right: 11.5rem;
         width: 24rem;
     }
-    
+
     .hero-banner .hero .hero-img .leafr img {
         width: 13rem;
         top: 0rem;
         left: 12.4rem;
     }
-    
+
     .hero-banner .hero h1 {
         font-size: 2.6rem;
     }
-    
+
     .hero-banner .hero p {
         font-size: .9rem;
     }
-    
+
     .hero-banner .hero button {
         font-size: .8rem;
     }
-    
+
     .product-tease .product .card .p-banner img {
         width: 13rem;
     }
-    
+
     .product-tease .product .card .p-content h5 {
         font-weight: 700;
     }
-    
+
     .product-tease .product .card .p-button button {
         padding: 0.6rem 3.4rem;
     }
-    
+
     .teaser-green .content {
         margin: 7rem;
     }
-    
+
     .teaser-green .content h1 {
         line-height: 2rem;
         font-size: 1.6rem;
     }
-    
+
     .teaser-green .content p {
         font-size: .9rem;
     }
-    
+
     .teaser-green .content button {
         font-size: .8rem;
     }
-    
-    .teaser-cream .content{
+
+    .teaser-cream .content {
         margin: 7rem;
     }
-    
-    .teaser-cream .content h1{
+
+    .teaser-cream .content h1 {
         font-size: 1.6rem;
     }
-    
-    .teaser-cream .content p{
+
+    .teaser-cream .content p {
         font-size: .9rem;
     }
-    
+
     .teaser-cream .content button {
         font-size: .8rem;
     }
-    
+
     .tiles .container #sprites-1 {
         background-position: -1rem -27rem;
     }
-    
+
     .tiles .container .content .desc-1 {
         margin-left: 1rem;
     }
-    
+
     .tiles .container .content .desc-2 {
         margin-right: 3rem;
     }
-    
+
     .tiles .container #sprites-2 {
         background-size: 278% 81rem;
         background-position: -25rem 0rem;
     }
-    
+
     .tiles .container #sprites-3 {
         background-position: -1rem -42rem;
     }
-    
+
     .tiles .container #sprites-4 {
         background-position: 0rem 0rem;
         background-size: 233% 92rem;
     }
-    
+
     .feature h6 {
         font-size: .9rem;
         padding: 0px 5.4rem;
     }
-    
+
     .newsletter .subscribe h2 {
         font-size: 1.6rem;
     }
-    
+
     .newsletter .subscribe p {
         font-size: .9rem;
     }
-    
+
     .newsletter .subscribe input[type="text"] {
         margin-left: 5rem;
     }
-    
+
     .newsletter .subscribe input[type="submit"] {
         margin-left: -6.3rem;
     }
-    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .newsletter .subscribe input[type="text"] {
+        width: 12rem;
     }
+
+
+    .tab-container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero-banner {
+        background-image: url(../images/hands.png);
+        background-color: #E0E4E7;
+        background-repeat: no-repeat;
+        background-position: -33rem -6rem;
+    }
+
+    .mobile-hero{
+        display: block !important;
+    }
+
+    .hero-banner .desk-hero{
+        display: none;
+    }
+
+    .hero-banner .hero {
+        padding: 0;
+    }
+
+    .hero-banner .hero .hero-img {
+        margin-bottom: 40rem;
+    }
+
+    .hero-banner .hero .hero-img .leafl img {
+        top: 5rem;
+        right: 10rem;
+    }
+
+    .hero-banner .hero .hero-img .leafr img {
+        top: 3rem;
+        left: 18rem;
+    }
+
+    .hero-banner .hero .hero-img .bottle img {
+        left: 5rem;
+        top: 2rem;
+        width: 90%;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .mobile-hero .content {
+        padding: 4rem 0;
+    }
+
+    .teaser-green .content {
+        padding: 0;
+        margin: 9rem 0rem;
+    }
+
+    .teaser-cream .content {
+        padding: 0;
+        margin: 9rem 0rem;
+    }
+
+    .desk-tile{
+        display: none
+    }
+
+    .mobile-tiles{
+        display: block !important;
+    }
+
+    .mobile-tiles {
+        #tiles-1 {
+            @include mob-tiles(13rem -32rem, 135% 370%);
+        }
+
+        #tiles-2 {
+            @include mob-tiles(-20rem -33rem, 147% 381%);
+        }
+
+        #tiles-3 {
+            @include mob-tiles(-26rem 3rem, 176% 389%);
+        }
+
+        #tiles-4 {
+            @include mob-tiles(13rem -50rem, 135% 370%);
+        }
+
+        #tiles-5 {
+            @include mob-tiles(-26rem -54rem, 176% 389%);
+        }
+
+        #tiles-6 {
+            @include mob-tiles(13rem 4rem, 135% 370%);
+        }
+    }
+
+    .feature{
+        padding: 0;
+        padding-bottom: 6rem;
+    }
+
+    .feature .mob-fe {
+        padding-top: 6rem;
+    }
+
+    .feature h6 {
+        padding: 1rem 14rem;
+        font-size: 1rem;
+    }
+
+    .newsletter .subscribe {
+        margin: 4rem 0;
+    }
+
+    .newsletter .subscribe input[type="text"] {
+        margin-left: 6rem;
+    }
+
+    .newsletter .subscribe input[type="submit"] {
+        margin-left: -18.3rem;
+    }
+
+    .vl{
+        display: none;
+    }
+
+    .hl{
+        display: block !important;
+    }
+
+    .footer {
+        padding-top: 2rem;
+    }
+
+    .footer .nav-input{
+        padding: 3rem 0;
+    }
+
+    .footer .other p {
+        padding-right: 6rem;
+        text-decoration: underline;
+        margin-bottom: 3rem;
+    }
+
+    .footer .other {
+        padding: 1rem 0;
+    }
+
+    .mob-soc{
+        padding-bottom: 5rem;
+    }
+
+    .desk-foo{
+        display: none;
+    }
+
+    .mobile-foo{
+        display: block !important;
+    }
+}

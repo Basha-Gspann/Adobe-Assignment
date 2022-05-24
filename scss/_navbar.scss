@@ -7,6 +7,8 @@
   font-family: proxima-nova, sans-serif;
 }
 
+
+
 // Offer Banner
 
 .tag {
@@ -54,17 +56,17 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5rem;  
+  padding: 0 5rem;
 }
 
-.nav-link{
+.nav-link {
   font-size: .8rem;
   color: #354E57;
   font-weight: 600;
   letter-spacing: .8px;
 }
 
-.sub .nav-link{
+.sub .nav-link {
   font-size: .8rem;
   color: #354E57;
   font-weight: 100;
@@ -79,46 +81,46 @@ a {
   margin: 0 18rem;
 }
 
-.sub{
+.sub {
   justify-content: center;
   padding: 2rem;
 }
 
-.mobile{
+.mobile {
   display: none;
   background-color: #F7F7F7;
   color: #354E57;
 }
 
-.cross{
+.cross {
   display: flex;
 }
 
-.cross .cro{
+.cross .cro {
   display: none;
 }
 
-.mobile .nav-link{
+.mobile .nav-link {
   font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-      position: absolute;
-      left: -100%;
-      top: 2rem;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: -100%;
+    top: 2rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .nav-menu.active {
-      left: 0;
+    left: 0;
   }
 
   .nav-item {
@@ -126,33 +128,35 @@ a {
     text-align: left;
   }
 
-  .mobile{
-      display: block !important;
-      padding-top: 4rem;
+  .mobile {
+    display: block !important;
+    padding-top: 4rem;
   }
 
-  .cross .cro{ 
+  .cross .cro {
     display: block;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-10px) rotate(-47deg);
+    transform: translateY(-10px) rotate(-47deg);
   }
 
 }
+
+
 
 
 // Footer
@@ -162,7 +166,7 @@ a {
   color: $white;
   padding-top: 10rem;
 
-  .content{
+  .content {
     padding-bottom: 6rem;
   }
 
@@ -195,9 +199,9 @@ a {
   }
 
   input[type="submit"] {
-    margin-left: -6.3rem;
+    margin-left: -5.3rem;
     height: 2.5rem;
-    width: 6.3rem;
+    width: 5.3rem;
     background-color: transparent;
     border: 1px solid $white;
     color: $white;
@@ -206,7 +210,7 @@ a {
     cursor: pointer;
   }
 
-  .extra{
+  .extra {
     padding-left: 5rem;
   }
 
@@ -231,10 +235,15 @@ a {
       text-decoration: underline;
       margin-bottom: 8rem;
     }
+
   }
+
   .fa-brands {
     font-size: 1.5rem;
     padding: 0 1rem;
-  
   }
+
+  .mobile-foo{
+    display: none;
+}
 }
