@@ -29,7 +29,7 @@ img {
 
 .hero-banner {
     background-image: url("../images/hands.png");
-    background-color: $light;
+    background-color: #E0E4E7;
     background-position-y: center;
     background-repeat: no-repeat;
 
@@ -429,3 +429,164 @@ img {
         }
     }
 }
+
+
+
+
+
+
+// Media Queary
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    .sooth{
+        width: 1057px;
+    }
+    
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    
+    .nav-menu {
+        padding: 0 2rem;
+        .nav-link{
+            padding-right: 1.2rem;
+        }
+    }
+    
+    .sub{
+        padding: 2rem;
+    }
+    
+    .hero-banner {
+        background-size: cover;
+        background-position: 6rem -5rem;
+    }
+    
+    .hero-banner .hero {
+        padding: 0rem 0;
+    }
+    
+    .hero-banner .hero .hero-img .bottle img {
+        left: 0rem;
+        top: -2rem;
+    }
+    
+    .hero-banner .hero .hero-img .leafl img {
+        top: 2rem;
+        right: 11.5rem;
+        width: 24rem;
+    }
+    
+    .hero-banner .hero .hero-img .leafr img {
+        width: 13rem;
+        top: 0rem;
+        left: 12.4rem;
+    }
+    
+    .hero-banner .hero h1 {
+        font-size: 2.6rem;
+    }
+    
+    .hero-banner .hero p {
+        font-size: .9rem;
+    }
+    
+    .hero-banner .hero button {
+        font-size: .8rem;
+    }
+    
+    .product-tease .product .card .p-banner img {
+        width: 13rem;
+    }
+    
+    .product-tease .product .card .p-content h5 {
+        font-weight: 700;
+    }
+    
+    .product-tease .product .card .p-button button {
+        padding: 0.6rem 3.4rem;
+    }
+    
+    .teaser-green .content {
+        margin: 7rem;
+    }
+    
+    .teaser-green .content h1 {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+    
+    .teaser-green .content p {
+        font-size: .9rem;
+    }
+    
+    .teaser-green .content button {
+        font-size: .8rem;
+    }
+    
+    .teaser-cream .content{
+        margin: 7rem;
+    }
+    
+    .teaser-cream .content h1{
+        font-size: 1.6rem;
+    }
+    
+    .teaser-cream .content p{
+        font-size: .9rem;
+    }
+    
+    .teaser-cream .content button {
+        font-size: .8rem;
+    }
+    
+    .tiles .container #sprites-1 {
+        background-position: -1rem -27rem;
+    }
+    
+    .tiles .container .content .desc-1 {
+        margin-left: 1rem;
+    }
+    
+    .tiles .container .content .desc-2 {
+        margin-right: 3rem;
+    }
+    
+    .tiles .container #sprites-2 {
+        background-size: 278% 81rem;
+        background-position: -25rem 0rem;
+    }
+    
+    .tiles .container #sprites-3 {
+        background-position: -1rem -42rem;
+    }
+    
+    .tiles .container #sprites-4 {
+        background-position: 0rem 0rem;
+        background-size: 233% 92rem;
+    }
+    
+    .feature h6 {
+        font-size: .9rem;
+        padding: 0px 5.4rem;
+    }
+    
+    .newsletter .subscribe h2 {
+        font-size: 1.6rem;
+    }
+    
+    .newsletter .subscribe p {
+        font-size: .9rem;
+    }
+    
+    .newsletter .subscribe input[type="text"] {
+        margin-left: 5rem;
+    }
+    
+    .newsletter .subscribe input[type="submit"] {
+        margin-left: -6.3rem;
+    }
+    
+    }
