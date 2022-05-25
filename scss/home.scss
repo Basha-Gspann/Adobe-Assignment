@@ -33,7 +33,7 @@ img {
     background-position-y: center;
     background-repeat: no-repeat;
 
-    .mobile-hero{
+    .mobile-hero {
         display: none;
     }
 
@@ -280,7 +280,7 @@ img {
     padding-bottom: 11rem;
     color: $blue;
 
-    .mobile-tiles{
+    .mobile-tiles {
         display: none;
     }
 
@@ -409,7 +409,7 @@ img {
             margin-left: 3rem;
         }
 
-        .hl{
+        .hl {
             display: none;
         }
 
@@ -620,11 +620,11 @@ img {
         background-position: -33rem -6rem;
     }
 
-    .mobile-hero{
+    .mobile-hero {
         display: block !important;
     }
 
-    .hero-banner .desk-hero{
+    .hero-banner .desk-hero {
         display: none;
     }
 
@@ -670,11 +670,11 @@ img {
         margin: 9rem 0rem;
     }
 
-    .desk-tile{
+    .desk-tile {
         display: none
     }
 
-    .mobile-tiles{
+    .mobile-tiles {
         display: block !important;
     }
 
@@ -704,7 +704,7 @@ img {
         }
     }
 
-    .feature{
+    .feature {
         padding: 0;
         padding-bottom: 6rem;
     }
@@ -730,11 +730,11 @@ img {
         margin-left: -18.3rem;
     }
 
-    .vl{
+    .vl {
         display: none;
     }
 
-    .hl{
+    .hl {
         display: block !important;
     }
 
@@ -742,7 +742,7 @@ img {
         padding-top: 2rem;
     }
 
-    .footer .nav-input{
+    .footer .nav-input {
         padding: 3rem 0;
     }
 
@@ -756,8 +756,231 @@ img {
         padding: 1rem 0;
     }
 
-    .mob-soc{
+    .mob-soc {
         padding-bottom: 5rem;
+    }
+
+    .desk-foo {
+        display: none;
+    }
+
+    .mobile-foo {
+        display: block !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .sooth {
+        width: 237%;
+    }
+
+    .tag {
+        padding: 3%;
+    }
+
+    .tag p {
+        font-size: 2rem;
+    }
+
+    // .nav-menu {
+    //     top: 0rem;
+    // }
+
+    // .bar {
+    //     width: 57px;
+    //     height: 6px;
+    //     margin: 11px 2rem;
+    // }
+
+    // .hamburger.active .bar:nth-child(3) {
+    //     transform: translateY(-23px) rotate(-47deg);
+    // }
+
+    .desk-hero {
+        display: none;
+    }
+
+    .mobile-hero {
+        display: block !important;
+    }
+
+    .hero-banner {
+        background-position: -35rem -5rem;
+    }
+
+    .hero-banner .hero h1 {
+        font-size: 5rem;
+        padding: 0 3rem;
+    }
+
+    .hero-banner .hero p {
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.3px;
+        margin-top: 2.5rem;
+        padding: 0 3rem;
+    }
+
+    .hero-banner .hero button {
+        padding: 1.6rem 9rem;
+        font-size: 1.9rem;
+        margin-top: 3.5rem;
+        margin-left: 6rem;
+    }
+
+    .solutions h3 {
+        font-size: 4rem;
+        padding: 0 2rem;
+    }
+
+    .solutions p {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .product-tease .product .card .p-content {
+        margin-top: 2rem;
+    }
+
+    .product-tease .product .card .p-content h5 {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .product-tease .product .card .p-content .dec {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+
+    .product-tease .product .card .p-content h6 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .product-tease .product .card .p-button button {
+        padding: 0.6rem 1.5rem;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+
+    .teaser-green .content {
+        margin: 2rem;
+        padding: 0;
+    }
+
+    .teaser-green .content h1 {
+        line-height: 6rem;
+        font-size: 4rem;
+    }
+
+    .teaser-green .content p {
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.3px;
+        margin-top: 2.5rem;
+        padding: 0 0rem;
+    }
+
+    .teaser-green .content button {
+        padding: 1.6rem 9rem;
+        font-size: 1.9rem;
+        margin-top: 3.5rem;
+        margin-left: 6rem;
+    }
+
+    .teaser-cream .content {
+        margin: 2rem;
+        padding: 0;
+    }
+
+    .teaser-cream .content h1 {
+        line-height: 6rem;
+        font-size: 4rem;
+    }
+
+    .teaser-cream .content p {
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.3px;
+        margin-top: 2.5rem;
+        padding: 0 0rem;
+    }
+
+    .teaser-cream .content button {
+        padding: 1.6rem 9rem;
+        font-size: 1.9rem;
+        margin-top: 3.5rem;
+        margin-left: 6rem;
+    }
+
+    .mob-fe {
+        padding-top: 4rem;
+    }
+
+    .feature .fa-solid {
+        font-size: 6rem;
+        margin-top: 3rem;
+    }
+
+    .feature h6 {
+        padding: 0px 6.4rem;
+        font-size: 2.5rem;
+        margin-top: 3.6rem;
+    }
+
+    .feature p {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .tiles {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .hl {
+        display: block !important;
+        margin: 3rem 0 !important;
+    }
+
+    .newsletter .subscribe {
+        margin: 3rem 0rem;
+    }
+
+    .newsletter .subscribe h2 {
+        font-size: 3.8rem;
+    }
+
+    .newsletter .subscribe p {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .newsletter .subscribe input[type="submit"] {
+        margin-left: -34.3rem;
+        height: 5.5rem;
+        width: 11.3rem;
+        background: #956A53;
+        color: #FFFFFF;
+        font-size: 1.8rem;
+        cursor: pointer;
+        border: 0;
+    }
+
+    .newsletter .subscribe input[type="text"] {
+        height: 5.5rem;
+        width: 23rem;
+        padding-right: 50px;
+        margin-top: 4rem;
+        margin-left: 11rem;
     }
 
     .desk-foo{
@@ -767,4 +990,47 @@ img {
     .mobile-foo{
         display: block !important;
     }
+
+    .mobile-foo h4{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .mobile-foo p {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+    }
+
+    .nav-input{
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer h1 {
+        font-weight: 100;
+        font-size: 6.5rem;
+    }
+
+    .footer input[type="text"] {
+        width: 34rem;
+        height: 4.5rem;
+        padding-right: 50px;
+        margin-top: 3rem;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+    }
+
+    .footer input[type="submit"] {
+        margin-left: -9.3rem;
+        height: 4.5rem;
+        width: 5.3rem;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        border: 0;
+        border-left: 1px solid;
+        cursor: pointer;
+        padding-left: 2rem;
+    }
+
 }
