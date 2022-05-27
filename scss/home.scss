@@ -796,6 +796,18 @@ img {
     //     transform: translateY(-23px) rotate(-47deg);
     // }
 
+    .cross .cro {
+        display: block;
+        z-index: 9;
+    }
+    .nav-menu.active {
+        left: 0;
+        width: 133vh;
+        z-index: 9;
+        top: 0rem;
+
+    }
+
     .desk-hero {
         display: none;
     }
@@ -997,13 +1009,21 @@ img {
     }
 
     .mobile-foo p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         padding-top: 2rem;
     }
 
     .nav-input{
         margin-top: 6rem;
         margin-bottom: 3rem;
+    }
+
+    .footer .other p {
+        margin-bottom: 4rem;
+    }
+
+    .mob-soc{
+        padding-bottom: 7rem;
     }
 
     .footer h1 {
