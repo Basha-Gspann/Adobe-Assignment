@@ -1054,6 +1054,13 @@ img {
     z-index: 9;
     top: 0rem;
   }
+  .nav-item {
+    margin: 10.5rem 0;
+    text-align: left;
+  }
+  .mobile .nav-link {
+    font-size: 3.3rem;
+  }
   .desk-hero {
     display: none;
   }
