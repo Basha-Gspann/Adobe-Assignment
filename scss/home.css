@@ -450,19 +450,19 @@ img {
 }
 
 .product-tease .product .card .p-banner #p-img:hover {
-  content: url("../images/cream.png");
+  content: url("../images/hover-1.png");
 }
 
 .product-tease .product .card .p-banner #p-img1:hover {
-  content: url("../images/poo.png");
+  content: url("../images/hover-2.png");
 }
 
 .product-tease .product .card .p-banner #p-img2:hover {
-  content: url("../images/psoriasis.png");
+  content: url("../images/hover-3.png");
 }
 
 .product-tease .product .card .p-banner #p-img3:hover {
-  content: url("../images/acne.png");
+  content: url("../images/hover-4.png");
 }
 
 .product-tease .product .card .p-content {
@@ -884,6 +884,15 @@ img {
     max-width: 80%;
     margin: 0 auto;
   }
+  .cross .cro {
+    display: block;
+    z-index: 9;
+  }
+  .nav-menu.active {
+    left: 0;
+    z-index: 9;
+    top: 0rem;
+  }
   .hero-banner {
     background-image: url(../images/hands.png);
     background-color: #E0E4E7;
@@ -1274,6 +1283,58 @@ img {
     border-left: 1px solid;
     cursor: pointer;
     padding-left: 2rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .nav-menu.active {
+    left: 0;
+    width: 156vh;
+    z-index: 9;
+    top: 0rem;
+  }
+  .hero-banner .hero .hero-img .bottle img {
+    position: absolute;
+    left: -2rem;
+    top: -5rem;
+  }
+  .hero-banner .hero .hero-img .leafr img {
+    position: absolute;
+    width: 18rem;
+    top: -1rem;
+    left: 17rem;
+  }
+  .hero-banner .hero .hero-img .leafl img {
+    position: absolute;
+    top: 2rem;
+    right: 20rem;
+    width: 33rem;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .nav-menu.active {
+    left: 0;
+    width: 177vh;
+    z-index: 9;
+    top: 0rem;
+  }
+  .hero-banner .hero .hero-img .bottle img {
+    position: absolute;
+    left: -6rem;
+    top: -9rem;
+  }
+  .hero-banner .hero .hero-img .leafr img {
+    position: absolute;
+    width: 18rem;
+    top: -3rem;
+    left: 17rem;
+  }
+  .hero-banner .hero .hero-img .leafl img {
+    position: absolute;
+    top: 2rem;
+    right: 28rem;
+    width: 33rem;
   }
 }
 /*# sourceMappingURL=home.css.map */
