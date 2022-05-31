@@ -157,6 +157,19 @@ a {
     -webkit-transform: translateY(-10px) rotate(-47deg);
             transform: translateY(-10px) rotate(-47deg);
   }
+  .mob-sub-con {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+  }
+  .item-mob {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  .link-mob {
+    font-size: .9rem;
+    font-weight: 600;
+    color: #354E57;
+  }
 }
 
 .footer {
@@ -1087,6 +1100,11 @@ img {
   }
   .mobile-hero {
     display: block !important;
+  }
+  .link-mob {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #354E57;
   }
   .hero-banner {
     background-position: -35rem -5rem;
