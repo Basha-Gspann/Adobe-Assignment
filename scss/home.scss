@@ -271,6 +271,9 @@ img {
     }
 }
 
+.product-scroll{
+    display: none;
+}
 
 // Image Tiles
 
@@ -682,6 +685,16 @@ img {
         margin: 9rem 0rem;
     }
 
+    .product-scroll-desk{
+        display: none;
+    }
+
+    .product-scroll {
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
     .desk-tile {
         display: none
     }
@@ -798,6 +811,7 @@ img {
         display: block;
         z-index: 9;
     }
+
     .nav-menu.active {
         left: 0;
         width: 133vh;
@@ -956,6 +970,16 @@ img {
         margin-left: 6rem;
     }
 
+    .product-scroll-desk{
+        display: none;
+    }
+
+    .product-scroll {
+        display: block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
     .mob-fe {
         padding-top: 4rem;
     }
@@ -1022,15 +1046,15 @@ img {
         margin-left: 11rem;
     }
 
-    .desk-foo{
+    .desk-foo {
         display: none;
     }
 
-    .mobile-foo{
+    .mobile-foo {
         display: block !important;
     }
 
-    .mobile-foo h4{
+    .mobile-foo h4 {
         margin-top: 2rem;
         font-size: 2rem;
     }
@@ -1040,7 +1064,7 @@ img {
         padding-top: 2rem;
     }
 
-    .nav-input{
+    .nav-input {
         margin-top: 6rem;
         margin-bottom: 3rem;
     }
@@ -1049,7 +1073,7 @@ img {
         margin-bottom: 4rem;
     }
 
-    .mob-soc{
+    .mob-soc {
         padding-bottom: 7rem;
     }
 
