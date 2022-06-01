@@ -111,7 +111,7 @@ a {
   font-size: 1.3rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .nav-menu {
     position: absolute;
     left: -100%;
