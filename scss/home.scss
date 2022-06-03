@@ -794,6 +794,85 @@ img {
     }
 }
 
+@media (min-width: 820px) and (max-width:900px){
+
+    .hero-banner {
+        background-position: -36rem -13rem;
+    }
+
+    .hero-banner .hero .hero-img .bottle img {
+        left: 5rem;
+        top: 0rem;
+        width: 140%;
+    }
+
+    .hero-banner .hero .hero-img .leafl img {
+        top: 0rem;
+        right: -6rem;
+    }
+
+    .hero-banner .hero .hero-img .leafr img {
+        top: -1rem;
+        left: 14rem;
+    }
+
+    .product-tease .product .card .p-banner img {
+        height: 12rem;
+        width: 7rem;
+    }
+
+    .product-tease .product .card .p-button button {
+        padding: 0.6rem 1rem;
+    }
+
+    .teaser-green .content {
+        padding: 0;
+        margin: 8rem 0rem;
+    }
+
+    .teaser-green .content h1 {
+        font-size: 2rem;
+    }
+
+    .teaser-green #man {
+        background-position: -12rem -19rem;
+    }
+
+    .mobile-tiles #tiles-1 {
+        background-position: 15rem -32rem;
+    }
+
+    .mobile-tiles #tiles-2 {
+        height: 20rem;
+        width: 42rem;
+        background-position: -23rem -34rem;
+        background-size: 147% 384%;
+    }
+
+    .mobile-tiles #tiles-3 {
+        height: 20rem;
+        width: 40rem;
+        background-position: -30rem 3rem;
+        background-size: 180% 389%;
+    }
+
+    .mobile-tiles #tiles-4 {
+        background-position: 16rem -50rem;
+    }
+
+    .mobile-tiles #tiles-5 {
+        background-position: -24rem -54rem;
+    }
+
+    .mobile-tiles #tiles-6 {
+        background-position: 15rem 4rem;
+    }
+
+    .feature h6 {
+        padding: 1rem 2rem !important;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .sooth {
         width: 237%;
@@ -1000,8 +1079,39 @@ img {
         margin-top: 3rem;
     }
 
-    .tiles {
+    .desk-tile {
         display: none;
+    }
+
+    .mobile-tiles{
+        display: block !important;
+    }
+
+    .mobile-tiles {
+        #tiles-1 {
+            @include mob-tiles(13rem -32rem, 135% 370%);
+        }
+
+        #tiles-2 {
+            width: 40rem !important;
+            @include mob-tiles(-22rem -33rem, 147% 381%);
+        }
+
+        #tiles-3 {
+            @include mob-tiles(-26rem 3rem, 176% 389%);
+        }
+
+        #tiles-4 {
+            @include mob-tiles(13rem -50rem, 135% 370%);
+        }
+
+        #tiles-5 {
+            @include mob-tiles(-26rem -54rem, 176% 389%);
+        }
+
+        #tiles-6 {
+            @include mob-tiles(13rem 4rem, 135% 370%);
+        }
     }
 
     .vl {
