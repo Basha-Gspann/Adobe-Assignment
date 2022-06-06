@@ -435,6 +435,66 @@ img {
   text-align: right;
 }
 
+.product-tease .product #p-img {
+  background: url(../images/acne.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 23rem;
+  background-position: 0%;
+}
+
+.product-tease .product #p-img:hover {
+  background: url("../images/hover-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-tease .product #p-img1 {
+  background: url(../images/vitiligio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 23rem;
+  background-position: 0%;
+}
+
+.product-tease .product #p-img1:hover {
+  background: url("../images/hover-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-tease .product #p-img2 {
+  background: url(../images/ezcema.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 23rem;
+  background-position: 0%;
+}
+
+.product-tease .product #p-img2:hover {
+  background: url("../images/hover-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-tease .product #p-img3 {
+  background: url(../images/sunburn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  height: 23rem;
+  background-position: 0%;
+}
+
+.product-tease .product #p-img3:hover {
+  background: url("../images/hover-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .product-tease .product .card {
   margin: 0.8rem;
   margin-bottom: 5rem;
@@ -459,22 +519,6 @@ img {
 .product-tease .product .card .p-banner img {
   height: 20rem;
   width: 15rem;
-}
-
-.product-tease .product .card .p-banner #p-img:hover {
-  content: url("../images/hover-1.png");
-}
-
-.product-tease .product .card .p-banner #p-img1:hover {
-  content: url("../images/hover-2.png");
-}
-
-.product-tease .product .card .p-banner #p-img2:hover {
-  content: url("../images/hover-3.png");
-}
-
-.product-tease .product .card .p-banner #p-img3:hover {
-  content: url("../images/hover-4.png");
 }
 
 .product-tease .product .card .p-content {

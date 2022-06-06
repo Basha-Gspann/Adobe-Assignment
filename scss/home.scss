@@ -135,9 +135,51 @@ img {
 
         }
 
+        #p-img {
+            background: url(../images/acne.png);
+            @include product-img;
+        }
+
+        #p-img:hover {
+            background: url('../images/hover-1.png');
+            @include product-img-hover;
+        }
+
+        #p-img1 {
+            background: url(../images/vitiligio.png);
+            @include product-img;
+        }
+
+        #p-img1:hover {
+            background: url('../images/hover-2.png');
+            @include product-img-hover;
+        }
+
+        #p-img2 {
+            background: url(../images/ezcema.png);
+            @include product-img;
+        }
+
+        #p-img2:hover {
+            background: url('../images/hover-3.png');
+            @include product-img-hover;
+        }
+
+        #p-img3 {
+            background: url(../images/sunburn.png);
+            @include product-img;
+        }
+
+        #p-img3:hover {
+            background: url('../images/hover-4.png');
+            @include product-img-hover;
+        }
+
         .card {
             margin: 0.8rem;
             margin-bottom: 5rem;
+
+
 
             .p-banner {
                 background-color: $white;
@@ -160,21 +202,6 @@ img {
                     width: 15rem;
                 }
 
-                #p-img:hover {
-                    content: url('../images/hover-1.png');
-                }
-
-                #p-img1:hover {
-                    content: url('../images/hover-2.png');
-                }
-
-                #p-img2:hover {
-                    content: url('../images/hover-3.png');
-                }
-
-                #p-img3:hover {
-                    content: url('../images/hover-4.png');
-                }
             }
 
             .p-content {
@@ -271,7 +298,7 @@ img {
     }
 }
 
-.product-scroll{
+.product-scroll {
     display: none;
 }
 
@@ -685,7 +712,7 @@ img {
         margin: 9rem 0rem;
     }
 
-    .product-scroll-desk{
+    .product-scroll-desk {
         display: none;
     }
 
@@ -794,7 +821,7 @@ img {
     }
 }
 
-@media (min-width: 820px) and (max-width:900px){
+@media (min-width: 820px) and (max-width:900px) {
 
     .hero-banner {
         background-position: -36rem -13rem;
@@ -1059,7 +1086,7 @@ img {
         margin-left: 6rem;
     }
 
-    .product-scroll-desk{
+    .product-scroll-desk {
         display: none;
     }
 
@@ -1093,7 +1120,7 @@ img {
         display: none;
     }
 
-    .mobile-tiles{
+    .mobile-tiles {
         display: block !important;
     }
 

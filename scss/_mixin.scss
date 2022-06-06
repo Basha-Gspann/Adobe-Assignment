@@ -29,6 +29,19 @@
     font-weight: 600;
 }
 
+@mixin product-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    height: 23rem;
+    background-position: 0%;
+}
+
+@mixin product-img-hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @mixin teaser {
     margin: 9rem;
     padding: 2.8rem 0;
@@ -57,7 +70,7 @@
 // Media
 
 
-@mixin mob-tiles($position,$size) {
+@mixin mob-tiles($position, $size) {
     height: 20rem;
     width: 36rem;
     background: url(../images/tiles.png);
